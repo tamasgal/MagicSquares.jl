@@ -1,5 +1,7 @@
 module MagicSquares
 
+export MagicSquare, ismagical
+
 immutable MagicSquare{T<:Integer}
     data::Array{T}
 end
